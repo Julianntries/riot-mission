@@ -470,14 +470,14 @@ h1{
 
     background:#0f1923;
 
-    justify-content:flex-start;
+    justify-content:center;
     align-items:center;
 
     flex-direction:column;
 
     text-align:center;
 
-    padding:20px;
+    padding:40px;
 }
 
 #message-title{
@@ -623,7 +623,7 @@ h1{
     width:100vw;
     height:100vh;
 
-    justify-content:flex-start;
+    justify-content:center;
     align-items:center;
 
     padding-top:20px;
