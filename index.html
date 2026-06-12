@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Birthday Mission</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- SCENE 1 -->
+
+<div id="rotate-screen">
+
+    <h1>ROTATE DEVICE</h1>
+
+    <p>FOR BEST EXPERIENCE</p>
+
+</div>
+
+<div id="start-screen">
+
+    <h1>RIOT PROTOCOL</h1>
+
+    <button id="start-btn">
+
+        ENTER MISSION
+
+    </button>
+
+</div>
+
+<!-- SCENE 2 -->
+
+<div id="landscape-screen">
+
+    <h1 id="system-title">
+        INITIALIZING SYSTEM...
+    </h1>
+
+    <div class="loading-bar">
+
+        <div class="loading-fill"></div>
+
+    </div>
+
+    <p id="loading-text">
+        0%
+    </p>
+
+</div>
+
+<!-- SCENE 3 -->
+
+<div id="logo-scene">
+
+    <img
+    src="images/valorant-logo.png"
+    id="valorant-logo">
+
+    <h1>RIOT PROTOCOL</h1>
+
+    <p>ACTIVATED</p>
+
+</div>
+
+<!-- SCENE 4 -->
+
+<div id="tejo-scene">
+
+    <img
+    src="images/tejo.webp"
+    id="tejo">
+
+    <div id="scan-panel">
+
+        <h2 id="scan-title">
+            SCANNING DATABASE...
+        </h2>
+
+        <p id="scan-status">
+            ACCESSING VALORANT NETWORK
+        </p>
+
+    </div>
+
+</div>
+<div id="agent-scene">
+
+    <p id="profile-text">
+        ACCESSING PROFILE...
+    </p>
+
+    <div id="card-container">
+
+        <div id="scan-line"></div>
+
+        <img
+        src="images/agent-card.png"
+        id="agent-card">
+
+    </div>
+
+</div>
+<div id="briefing-scene">
+
+    <h1>MISSION BRIEFING</h1>
+
+    <div id="objective-list">
+
+        <p class="objective">
+            OBJECTIVE 01 — SMILE TODAY
+        </p>
+
+        <p class="objective">
+            OBJECTIVE 02 — EAT SOME BROWNIES
+        </p>
+
+        <p class="objective">
+            OBJECTIVE 03 — MAKE NEW MEMORIES
+        </p>
+
+        <p class="objective">
+            OBJECTIVE 04 — ENJOY YOUR SPECIAL DAY
+        </p>
+
+        <p class="objective">
+            OBJECTIVE 05 — NEVER FORGET HOW VALUABLE YOU ARE
+        </p>
+
+    </div>
+
+    <button id="lockin-btn">
+
+        LOCK IN
+
+    </button>
+
+</div>
+<div id="accepted-scene">
+
+    <h1>MISSION ACCEPTED</h1>
+
+</div>
+<div id="level-scene">
+
+    <h1 id="level-text">
+
+        LEVEL 19 COMPLETE
+
+    </h1>
+
+</div>
+<div id="mission-detected-scene">
+
+    <h1 id="mission-text">
+        NEW MISSION DETECTED
+    </h1>
+
+    <p id="target-text">
+        TARGET : WIARNATZY
+    </p>
+
+</div>
+<div id="birthday-scene">
+
+    <h1>HAPPY BIRTHDAY</h1>
+
+    <h2>WIARNATZY</h2>
+
+    <button id="message-btn">
+
+        OPEN MESSAGE
+
+    </button>
+
+</div>
+<div id="message-scene">
+
+    <img
+src="images/skye1.png"
+id="message-skye">
+
+    <h2 id="message-title">
+        MESSAGE FILE 01
+    </h2>
+
+    <p id="message-content">
+        Halo, Agent Wiarnatzy.
+    </p>
+
+    <button id="continue-btn">
+
+        CONTINUE
+
+    </button>
+
+</div>
+<div id="letter-scene">
+
+    <p id="unread-letter">
+        1 UNREAD LETTER
+    </p>
+
+    <button id="open-letter-btn">
+
+        OPEN LETTER
+
+    </button>
+
+</div>
+
+<div id="letter-content-scene">
+
+    <div id="letter-paper">
+
+        <h2>
+            MESSAGE FROM AGENT JULIAN
+        </h2>
+
+        <p id="letter-text">
+
+Sebelum transmisi ini berakhir, ada satu hal terakhir yang ingin aku sampaikan.
+
+<br><br>
+
+Jika suatu hari nanti kamu kembali membuka halaman ini, semoga kamu masih bisa tersenyum mengingat hari ini.
+
+<br><br>
+
+Dan semoga kamu juga ingat bahwa semua yang baru saja kamu lihat tidak muncul begitu saja. Ada seseorang yang dengan sengaja menyusun setiap bagian dari misi ini khusus untukmu.
+
+<br><br>
+
+Karena menurutku, hari lahirmu layak dikenang dengan sesuatu yang lebih dari sekadar ucapan biasa.
+
+<br><br>
+
+— Agent Julian
+
+</p>
+
+
+        <button id="identify-btn">
+
+            IDENTIFY SENDER
+
+        </button>
+
+    </div>
+
+</div>
+
+<div id="identity-scene">
+
+    <p id="identity-status">
+
+        ACCESSING DATABASE...
+
+    </p>
+
+    <div id="identity-container">
+
+        <div id="identity-scan-line"></div>
+
+        <img
+        src="images/julian.png"
+        id="julian-photo">
+
+    </div>
+
+    <h2 id="agent-name">
+
+        AGENT JULIAN
+
+    </h2>
+
+    <p>
+
+        STATUS : TRUSTED
+
+    </p>
+<button id="records-btn">
+
+    OPEN MISSION RECORDS
+
+</button>
+</div>
+<div id="records-scene">
+
+    <video
+    id="mission-video"
+    controls
+    autoplay>
+
+        <source
+        src="video/memories.mp4"
+        type="video/mp4">
+
+    </video>
+
+</div>
+
+<div id="ending-scene">
+
+    <h1>
+
+        LEVEL 20 IN PROGRESS...
+
+    </h1>
+
+    <p>
+
+        Perjalanan ini baru saja dimulai.
+
+    </p>
+
+</div>
+<div id="flash-screen"></div>
+
+<audio id="beep">
+
+    <source
+    src="audio/beep.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<audio
+id="bgm"
+loop>
+
+    <source
+    src="audio/bgm.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<audio id="birthday-sfx">
+
+    <source
+    src="audio/birthday.mp3"
+    type="audio/mpeg">
+
+</audio>
+<audio id="match-sfx">
+
+    <source
+    src="audio/match-found.mpeg"
+    type="audio/mpeg">
+
+</audio>
+
+<audio id="scan-sfx">
+
+    <source
+    src="audio/scan.mpeg"
+    type="audio/mpeg">
+
+</audio>
+
+<audio id="click-sfx">
+
+    <source
+    src="audio/click.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<audio id="typewriter-sfx">
+
+    <source
+    src="audio/text.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<audio id="rankup-sfx">
+
+    <source
+    src="audio/Rankup.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
