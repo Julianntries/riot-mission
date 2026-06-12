@@ -8,8 +8,7 @@ body{
     background:#0f1923;
     color:white;
     font-family:Arial,sans-serif;
-    overflow-x:hidden;
-    overflow-y:auto;
+    overflow:hidden;
 }
 #rotate-screen,
 #landscape-screen,
@@ -103,7 +102,7 @@ h1{
 
 #tejo{
 
-    height:80vh;
+    height:70vh;
 
     transform:translateX(500px);
 
@@ -153,7 +152,7 @@ h1{
 
     width:auto;
 
-    height:80vh;
+    height:70vh;
 
     max-width:90vw;
 
@@ -359,16 +358,16 @@ h1{
 
     opacity:0;
 
-    margin:15px;
+    margin:8px;
 
-    font-size:1.2rem;
+    font-size:1rem;
 
     color:white;
 }
 
 #lockin-btn{
 
-    margin-top:40px;
+    margin-top:20px;
 
     padding:15px 40px;
 
@@ -402,14 +401,14 @@ h1{
 
 #accepted-scene h1{
 
-    font-size:4rem;
+    font-size:3rem;
 
     color:#ff4655;
 }
 
 #birthday-scene h1{
 
-    font-size:4rem;
+    font-size:3rem;
 
     color:#ff4655;
 }
@@ -456,7 +455,7 @@ h1{
 
     color:#ff4655;
 
-    font-size:4rem;
+    font-size:3rem;
 
     letter-spacing:6px;
 
@@ -718,7 +717,7 @@ h1{
 
 #julian-photo{
 
-    height:75vh;
+    height:65vh;
 
     max-width:90vw;
 
