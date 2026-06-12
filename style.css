@@ -466,18 +466,18 @@ h1{
     display:none;
 
     width:100vw;
-    height:100dvh;
+    height:100vh;
 
     background:#0f1923;
 
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
 
     flex-direction:column;
 
     text-align:center;
 
-    padding:40px;
+    padding:20px;
 }
 
 #message-title{
@@ -623,8 +623,10 @@ h1{
     width:100vw;
     height:100vh;
 
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
+
+    padding-top:20px;
 
     flex-direction:column;
 
@@ -658,7 +660,7 @@ h1{
 
 #letter-paper{
 
-    width:70vw;
+    width:60vw;
 
     max-width:900px;
 
