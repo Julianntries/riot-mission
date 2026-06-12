@@ -491,9 +491,9 @@ h1{
 
     max-width:700px;
 
-    line-height:1.8;
+    line-height:1.6;
 
-    font-size:1.2rem;
+    font-size:1rem;
 }
 
 #continue-btn{
@@ -512,7 +512,7 @@ h1{
 }
 #message-skye{
 
-    height:250px;
+    height:180px;
 
     margin-bottom:20px;
 
